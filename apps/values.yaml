@@ -7,3 +7,6 @@ config:
       targetRevision: main
 
 applications:
+  - name: guestbook
+    path: guestbook
+    namespace: guestbook
