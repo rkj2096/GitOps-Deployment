@@ -1,0 +1,9 @@
+config:
+  spec:
+    destination:
+      server: https://kubernetes.default.svc
+    source:
+      repoURL: https://github.com/rkj2096/GitOps-Deployment
+      targetRevision: main
+
+applications:
