@@ -12,3 +12,8 @@ applications:
     tool:
       helm:
         releaseName: backstage
+  - name: headlamp
+    namespace: headlamp
+    tool:
+      helm:
+        releaseName: headlamp
