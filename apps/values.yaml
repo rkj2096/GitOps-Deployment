@@ -10,3 +10,7 @@ applications:
   - name: backstage
     path: backstage
     namespace: backstage
+    tool:
+      helm:
+        valueFiles:
+          - values.yaml
