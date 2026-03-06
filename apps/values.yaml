@@ -12,5 +12,4 @@ applications:
     namespace: backstage
     tool:
       helm:
-        valueFiles:
-          - values.yaml
+        releaseName: backstage
