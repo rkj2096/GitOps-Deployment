@@ -1,0 +1,12 @@
+apiVersion: v3
+name: backstage
+description: A helm chart for backstage deployment 
+
+type: application
+
+version: 0.1.0
+
+dependencies:
+  - name: backstage
+    repository: https://backstage.github.io/charts
+    version: "2.6.3"
